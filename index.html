@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
   </head>
   <body>
-    <div class="page">
-      <div class="list" id="list-result"></div>
+    <div class="container">
       <input
         type="text"
-        id="fruit-autocomplete"
+        id="fruit-input"
+        class="autocomplete-input"
         placeholder="Fruit"
-        class="box"
       />
-      <button type="button" id="search-button" class="search">Search!</button>
-      <button type="button" id="show-button" class="show">
-        Show Avaliable Fruits
-      </button>
+      <ul class="autocomplete-list" id="fruit-list">
+        
+      </ul>
     </div>
-    <script src="index.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
